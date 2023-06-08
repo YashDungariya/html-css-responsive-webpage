@@ -1,0 +1,1465 @@
+@media (min-width: 1025px) and (max-width: 1200px) {
+  header {
+    width: 100%;
+    height: 80vh;
+    /* border: 1px solid black; */
+  }
+  .main {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    /* border: 1px solid black; */
+  }
+  .logo {
+    width: 13%;
+    height: 20vh;
+    text-align: center;
+    /* border: 1px solid black; */
+    cursor: pointer;
+  }
+  .logo img {
+    width: 80%;
+    height: 80%;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+  }
+  .navbar {
+    width: 87%;
+    height: 20vh;
+    /* border: 1px solid black; */
+  }
+  .navbar ul {
+    margin: 50px;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+  }
+  ul li {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+  }
+  ul li a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  ul li a:hover {
+    border-radius: 5px;
+    /* padding: 10px; */
+    background-color: gray;
+    color: honeydew;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container .con-child {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+  }
+
+  /* ______________________________________________________________ */
+  .sec-1 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-2 {
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+  }
+  .box {
+    width: 33%;
+    height: 30vh;
+    /* border: 1px solid blue; */
+  }
+  .box img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  #box-1 {
+    background-color: rgb(77, 75, 75);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  #box-1 h4 {
+    color: whitesmoke;
+    font-size: 2rem;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    /* border: 1px solid black; */
+  }
+  #box-2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+  }
+  #box-2 p {
+    margin: 30px;
+  }
+  /* _____________________________________________________ */
+
+  .sec-2 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  #container-3 {
+    width: 100%;
+    height: 73vh;
+    background: url(IMG/sec-img.jpg);
+    background-position: top;
+    background-size: cover;
+    /* border: 1px solid red; */
+    display: flex;
+    position: relative;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  #child-con {
+    width: 30%;
+    height: 50vh;
+    position: absolute;
+    top: 2rem;
+    left: 10rem;
+    text-align: center;
+    /* border: 1px solid blue; */
+  }
+  #child-con h1 {
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  #child-con h4 {
+    font-weight: 500;
+    font-size: 1rem;
+    color: whitesmoke;
+    letter-spacing: 8px;
+  }
+  /* _______________________________________________ */
+  .sec-3 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  #container-4 {
+    width: 95%;
+    height: 750vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+  .box001 {
+    width: 30%;
+    height: 70vh;
+    background-color: rgba(207, 204, 204, 0.562);
+    /* border: 1px solid blue; */
+  }
+  .box002 {
+    width: 70%;
+    height: 70vh;
+    background: url(IMG/sec-2-img.jpg);
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid blue; */
+  }
+  .box001 h5 {
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 10px;
+  }
+  .box001 h2 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .box001 h2 span {
+    color: rgba(128, 123, 123, 0.863);
+  }
+  .box001 i {
+    font-size: 11px;
+    text-align: center;
+    font-weight: 500;
+  }
+  /* ________________________________________________ */
+  .sec-4 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-5 {
+    width: 99%;
+    height: 79vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+  #con-01 {
+    width: 40%;
+    height: 79vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: rgba(207, 204, 204, 0.562);
+    /* border: 1px solid rgb(4, 0, 255); */
+  }
+  #con-001 {
+    margin: 30% 20%;
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+  #con-002 {
+    color: rgb(128, 96, 96);
+    text-align: center;
+    font-size: 3rem;
+  }
+  #con-02 {
+    width: 35%;
+    height: 79vh;
+    background: url(IMG/dog-1.jpg);
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid blue; */
+  }
+  #con-03 {
+    width: 25%;
+    height: 79vh;
+    flex-wrap: wrap;
+    background-color: rgba(207, 204, 204, 0.562);
+    /* border: 1px solid blue; */
+  }
+  .pra-1 p {
+    margin: 10px;
+    color: rgb(128, 96, 96);
+    font-size: 25px;
+  }
+  /* ____________________________________________________ */
+  .sec-5 {
+    width: 100%;
+    height: 80vh;
+    background: url(IMG/sec-5-img.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-6 {
+    color: black;
+    width: 90%;
+    height: 77vh;
+    /* justify-content: center;
+    display: flex;
+    align-items: center; */
+    position: relative;
+    /* border: 1px solid red; */
+  }
+  .con-child-1 {
+    position: absolute;
+    top: 30%;
+    width: 50%;
+    height: 35vh;
+    /* border: 1px solid blue; */
+  }
+  #basic-dog {
+    text-align: center;
+    font-size: 3rem;
+  }
+  #Training {
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 1rem;
+  }
+  #pra {
+    font-weight: 600;
+    padding: 5px;
+  }
+  .btn-0 {
+    margin-top: 30px;
+    height: 3.5rem;
+    text-align: center;
+    /* border: 1px solid black; */
+  }
+  .btn-0 button {
+    background-color: transparent;
+    padding: 15px 40px;
+  }
+  .btn-0 button:hover {
+    background-color: black;
+    color: white;
+  }
+  /* _________________________________________________________ */
+  .sec-6 {
+    margin-top: 10px;
+    width: 100%;
+    height: 45vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-7 {
+    width: 90%;
+    height: 35vh;
+    color: whitesmoke;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+  #like {
+    margin-top: 6%;
+    /* border: 1px solid blue; */
+  }
+  .like-icon {
+    height: 3rem;
+    /* border: 1px solid whitesmoke; */
+  }
+  .like-icon i {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  .like-icon i:hover {
+    border-radius: 5px;
+    background-color: brown;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    width: 100%;
+    height: 80vh;
+    /* border: 1px solid black; */
+  }
+  .main {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    /* border: 1px solid black; */
+  }
+  .logo {
+    width: 13%;
+    height: 20vh;
+    text-align: center;
+    /* border: 1px solid black; */
+    cursor: pointer;
+  }
+  .logo img {
+    width: 80%;
+    height: 80%;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+  }
+  .navbar {
+    width: 87%;
+    height: 20vh;
+    /* border: 1px solid black; */
+  }
+  .navbar ul {
+    margin: 50px;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+  }
+  ul li {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+  }
+  ul li a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  ul li a:hover {
+    border-radius: 5px;
+    /* padding: 10px; */
+    background-color: gray;
+    color: honeydew;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container .con-child {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+  }
+
+  /* ______________________________________________________________ */
+  .sec-1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-2 {
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+  }
+  .box {
+    width: 33%;
+    height: 40vh;
+    font-weight: 700;
+    font-size: 11px;
+    /* border: 1px solid blue; */
+  }
+  .box img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  #box-1 {
+    background-color: rgb(77, 75, 75);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  #box-1 h4 {
+    color: whitesmoke;
+    font-size: 2rem;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    /* border: 1px solid black; */
+  }
+  #box-2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+  }
+  #box-2 p {
+    /* font-size: 1rem; */
+    margin: 70px;
+  }
+  /* _____________________________________________________ */
+
+  .sec-2 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  #container-3 {
+    width: 100%;
+    height: 73vh;
+    background: url(IMG/sec-img.jpg);
+    background-position: top;
+    background-size: cover;
+    /* border: 1px solid red; */
+    display: flex;
+    position: relative;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  #child-con {
+    width: 30%;
+    height: 50vh;
+    position: absolute;
+    top: 2rem;
+    left: 10rem;
+    text-align: center;
+    /* border: 1px solid blue; */
+  }
+  #child-con h1 {
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  #child-con h4 {
+    font-weight: 500;
+    font-size: 1rem;
+    color: whitesmoke;
+    letter-spacing: 8px;
+  }
+  /* _______________________________________________ */
+  .sec-3 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  #container-4 {
+    width: 95%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+  .box001 {
+    width: 30%;
+    height: 70vh;
+    background-color: rgba(207, 204, 204, 0.562);
+    /* border: 1px solid blue; */
+  }
+  .box002 {
+    width: 70%;
+    height: 70vh;
+    background: url(IMG/sec-2-img.jpg);
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid blue; */
+  }
+  .box001 h5 {
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 10px;
+  }
+  .box001 h2 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .box001 h2 span {
+    color: rgba(128, 123, 123, 0.863);
+  }
+  .box001 i {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+  }
+  /* ________________________________________________ */
+  .sec-4 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-5 {
+    width: 99%;
+    height: 79vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+  #con-01 {
+    width: 40%;
+    height: 79vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: rgba(207, 204, 204, 0.562);
+    /* border: 1px solid rgb(4, 0, 255); */
+  }
+  #con-001 {
+    margin: 30% 20%;
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+  #con-002 {
+    color: rgb(128, 96, 96);
+    text-align: center;
+    font-size: 2rem;
+  }
+  #con-02 {
+    width: 35%;
+    height: 79vh;
+    background: url(IMG/dog-1.jpg);
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid blue; */
+  }
+  #con-03 {
+    width: 25%;
+    height: 79vh;
+    flex-wrap: wrap;
+    background-color: rgba(207, 204, 204, 0.562);
+    /* border: 1px solid blue; */
+  }
+  .pra-1 p {
+    margin: 10px;
+    color: rgb(128, 96, 96);
+    font-size: 20px;
+  }
+  /* ____________________________________________________ */
+  .sec-5 {
+    width: 100%;
+    height: 90vh;
+    background: url(IMG/sec-5-img.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-6 {
+    color: black;
+    width: 90%;
+    height: 85vh;
+    /* justify-content: center;
+      display: flex;
+      align-items: center; */
+    position: relative;
+    /* border: 1px solid red; */
+  }
+  .con-child-1 {
+    position: absolute;
+    top: 10%;
+    width: 50%;
+    height: 70vh;
+    /* border: 1px solid blue; */
+  }
+  #basic-dog {
+    text-align: center;
+    font-size: 3rem;
+  }
+  #Training {
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 1rem;
+  }
+  #pra {
+    font-weight: 600;
+    padding: 5px;
+  }
+  .btn-0 {
+    margin-top: 30px;
+    height: 3.5rem;
+    text-align: center;
+    /* border: 1px solid black; */
+  }
+  .btn-0 button {
+    background-color: transparent;
+    padding: 15px 40px;
+  }
+  .btn-0 button:hover {
+    background-color: black;
+    color: white;
+  }
+  /* _________________________________________________________ */
+  .sec-6 {
+    margin-top: 10px;
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-7 {
+    width: 90%;
+    height: 35vh;
+    color: whitesmoke;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+  #like {
+    margin-top: 6%;
+    /* border: 1px solid blue; */
+  }
+  .like-icon {
+    height: 3rem;
+    /* border: 1px solid whitesmoke; */
+  }
+  .like-icon i {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  .like-icon i:hover {
+    border-radius: 5px;
+    background-color: brown;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 40vh;
+    /* border: 1px solid black; */
+  }
+  .main {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    /* border: 1px solid black; */
+  }
+  .logo {
+    width: 13%;
+    height: 10vh;
+    margin-top: 15px;
+    text-align: center;
+    /* border: 1px solid black; */
+    cursor: pointer;
+  }
+  .logo img {
+    width: 80%;
+    height: 80%;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+  }
+  .navbar {
+    width: 87%;
+    height: 20vh;
+    /* border: 1px solid black; */
+  }
+  .navbar ul {
+    margin: 50px;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+  }
+  ul li {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+  }
+  ul li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  ul li a:hover {
+    border-radius: 5px;
+    /* padding: 10px; */
+    background-color: gray;
+    color: honeydew;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container .con-child {
+    position: absolute;
+    top: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+  /* ____________________________________________________________ */
+
+  .sec-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+  }
+  .box {
+    width: 49%;
+    height: 30vh;
+    border: 1px solid whitesmoke;
+  }
+  .box img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  #box-1 {
+    background-color: rgb(77, 75, 75);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  #box-1 h4 {
+    color: whitesmoke;
+    font-size: 30px;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    /* border: 1px solid black; */
+  }
+  #box-2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+  }
+  #box-2 p {
+    font-weight: 600;
+    font-size: 12px;
+    margin: 40px;
+  }
+
+  /* _____________________________________________________________ */
+
+  .sec-2 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  #container-3 {
+    width: 100%;
+    height: 40vh;
+    background: url(IMG/sec-img.jpg);
+    background-position: top;
+    background-size: cover;
+    /* border: 1px solid red; */
+    display: flex;
+    position: relative;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  #child-con {
+    width: 80%;
+    height: 30vh;
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    text-align: center;
+    /* border: 1px solid blue; */
+  }
+  #child-con h1 {
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  #child-con h4 {
+    font-weight: 500;
+    font-size: 1rem;
+    color: whitesmoke;
+    letter-spacing: 8px;
+  }
+  /* ___________________________________________________ */
+  .sec-3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  #container-4 {
+    width: 100%;
+    height: 60vh;
+    /* flex-wrap: wrap; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+  .box001 {
+    width: 98%;
+    height: 60vh;
+    background-color: rgba(207, 204, 204, 0.562);
+    /* border: 1px solid blue; */
+  }
+  .box002 {
+    width: 98%;
+    height: 60vh;
+    background: url(IMG/sec-2-img.jpg);
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid blue; */
+  }
+  .box001 h5 {
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 10px;
+  }
+  .box001 h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .box001 h2 span {
+    color: rgba(128, 123, 123, 0.863);
+  }
+  .box001 i {
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 800;
+  }
+  /* ____________________________________________________________________ */
+  .sec-4 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-5 {
+    width: 99%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+  #con-01 {
+    width: 46%;
+    height: 40vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: flex-end;
+    background-color: rgba(207, 204, 204, 0.562);
+    /* border: 1px solid rgb(4, 0, 255); */
+  }
+  #con-001 {
+    margin: 5% 10%;
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+  #con-002 {
+    color: rgb(128, 96, 96);
+    text-align: center;
+    font-size: 2rem;
+  }
+  #con-02 {
+    width: 46%;
+    height: 40vh;
+    margin: 10px;
+    background: url(IMG/dog-1.jpg);
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid blue; */
+  }
+  #con-03 {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    background-color: rgba(207, 204, 204, 0.562);
+    /* border: 1px solid blue; */
+  }
+  .pra-1 p {
+    margin: 50px;
+    color: rgb(128, 96, 96);
+    font-size: 1rem;
+  }
+  /* ___________________________________________________ */
+  .sec-5 {
+    width: 100%;
+    height: 100vh;
+    background: url(IMG/sec-5-img.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-6 {
+    color: black;
+    width: 90%;
+    height: 77vh;
+    /* justify-content: center;
+  display: flex;
+  align-items: center; */
+    position: relative;
+    /* border: 1px solid red; */
+  }
+  .con-child-1 {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 70vh;
+    /* border: 1px solid blue; */
+  }
+  #basic-dog {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+  }
+  #Training {
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 2rem;
+    color: rgb(214, 187, 187);
+  }
+  #pra {
+    color: black;
+    font-weight: 600;
+    padding: 5px;
+  }
+  .btn-0 {
+    margin-top: 30px;
+    height: 3.5rem;
+    text-align: center;
+    /* border: 1px solid black; */
+  }
+  .btn-0 button {
+    color: whitesmoke;
+    background-color: transparent;
+    padding: 5px 10px;
+  }
+  .btn-0 button:hover {
+    background-color: black;
+    color: white;
+  }
+  /* ______________________________________________________________ */
+  .sec-6 {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+  }
+  .container-7 {
+    width: 90%;
+    height: 35vh;
+    color: whitesmoke;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+  #like {
+    font-size: 1rem;
+    margin-top: 10%;
+    /* border: 1px solid blue; */
+  }
+  .like-icon {
+    height: 3rem;
+    /* border: 1px solid whitesmoke; */
+  }
+  .like-icon i {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  .like-icon i:hover {
+    border-radius: 5px;
+    background-color: brown;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  header {
+    width: 100%;
+    height: 40vh;
+    /* border: 1px solid black; */
+  }
+  .main {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    /* border: 1px solid black; */
+  }
+  .logo {
+    width: 13%;
+    height: 10vh;
+    margin-top: 15px;
+    text-align: center;
+    /* border: 1px solid black; */
+    cursor: pointer;
+  }
+  .logo img {
+    width: 80%;
+    height: 80%;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+  }
+  .navbar {
+    width: 87%;
+    height: 20vh;
+    /* border: 1px solid black; */
+  }
+  .navbar ul {
+    margin: 50px;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+  }
+  ul li {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+  }
+  ul li a {
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  ul li a:hover {
+    border-radius: 5px;
+    /* padding: 10px; */
+    background-color: gray;
+    color: honeydew;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container .con-child {
+    position: absolute;
+    top: 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+  /* ____________________________________________________________ */
+
+  .sec-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+  }
+  .box {
+    width: 100%;
+    height: 30vh;
+    border: 1px solid whitesmoke;
+  }
+  .box img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  #box-1 {
+    background-color: rgb(77, 75, 75);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  #box-1 h4 {
+    color: whitesmoke;
+    font-size: 30px;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    /* border: 1px solid black; */
+  }
+  #box-2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+  }
+  #box-2 p {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 40px;
+  }
+
+  /* _____________________________________________________________ */
+
+  .sec-2 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  #container-3 {
+    width: 100%;
+    height: 40vh;
+    background: url(IMG/sec-img.jpg);
+    background-position: top;
+    background-size: cover;
+    /* border: 1px solid red; */
+    display: flex;
+    position: relative;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  #child-con {
+    width: 80%;
+    height: 30vh;
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    text-align: center;
+    /* border: 1px solid blue; */
+  }
+  #child-con h1 {
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  #child-con h4 {
+    font-weight: 500;
+    font-size: 1rem;
+    color: whitesmoke;
+    letter-spacing: 8px;
+  }
+  /* ___________________________________________________ */
+  .sec-3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  #container-4 {
+    width: 100%;
+    height: 60vh;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+  .box001 {
+    width: 98%;
+    height: 29vh;
+    background-color: rgba(207, 204, 204, 0.562);
+    /* border: 1px solid blue; */
+  }
+  .box002 {
+    width: 98%;
+    height: 30vh;
+    background: url(IMG/sec-2-img.jpg);
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid blue; */
+  }
+  .box001 h5 {
+    font-size: 0.9rem;
+    text-align: center;
+    letter-spacing: 10px;
+  }
+  .box001 h2 {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .box001 h2 span {
+    color: rgba(128, 123, 123, 0.863);
+  }
+  .box001 i {
+    margin-bottom: 50px;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 800;
+  }
+  /* ____________________________________________________________________ */
+  .sec-4 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-5 {
+    width: 99%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+  #con-01 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: rgba(207, 204, 204, 0.562);
+    /* border: 1px solid rgb(4, 0, 255); */
+  }
+  #con-001 {
+    margin: 30% 20%;
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 10px;
+  }
+  #con-002 {
+    color: rgb(128, 96, 96);
+    text-align: center;
+    font-size: 2rem;
+  }
+  #con-02 {
+    width: 100%;
+    height: 40vh;
+    margin: 10px;
+    background: url(IMG/dog-1.jpg);
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid blue; */
+  }
+  #con-03 {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    background-color: rgba(207, 204, 204, 0.562);
+    /* border: 1px solid blue; */
+  }
+  .pra-1 p {
+    margin: 50px;
+    color: rgb(128, 96, 96);
+    font-size: 1rem;
+  }
+  /* ___________________________________________________ */
+  .sec-5 {
+    width: 100%;
+    height: 100vh;
+    background: url(IMG/sec-5-img.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .container-6 {
+    color: black;
+    width: 90%;
+    height: 77vh;
+    /* justify-content: center;
+  display: flex;
+  align-items: center; */
+    position: relative;
+    /* border: 1px solid red; */
+  }
+  .con-child-1 {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 50vh;
+    /* border: 1px solid blue; */
+  }
+  #basic-dog {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+  }
+  #Training {
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 1rem;
+  }
+  #pra {
+    color: black;
+    font-weight: 600;
+    padding: 5px;
+  }
+  .btn-0 {
+    margin-top: 30px;
+    height: 3.5rem;
+    text-align: center;
+    /* border: 1px solid black; */
+  }
+  .btn-0 button {
+    background-color: transparent;
+    padding: 5px 10px;
+  }
+  .btn-0 button:hover {
+    background-color: black;
+    color: white;
+  }
+  /* ______________________________________________________________ */
+  .sec-6 {
+    margin-top: 10px;
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+  }
+  .container-7 {
+    width: 90%;
+    height: 35vh;
+    color: whitesmoke;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+  #like {
+    font-size: 1rem;
+    margin-top: 20%;
+    /* border: 1px solid blue; */
+  }
+  .like-icon {
+    height: 3rem;
+    /* border: 1px solid whitesmoke; */
+  }
+  .like-icon i {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  .like-icon i:hover {
+    border-radius: 5px;
+    background-color: brown;
+  }
+}

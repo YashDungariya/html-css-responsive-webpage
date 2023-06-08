@@ -1,0 +1,356 @@
+header {
+  width: 100%;
+  height: 80vh;
+  /* border: 1px solid black; */
+  background: url(IMG/bg-4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.main {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  /* border: 1px solid black; */
+}
+.logo {
+  width: 13%;
+  height: 20vh;
+  text-align: center;
+  /* border: 1px solid black; */
+  cursor: pointer;
+}
+.logo img {
+  width: 80%;
+  height: 80%;
+  margin-top: 10px;
+  /* border: 1px solid black; */
+}
+.navbar {
+  width: 87%;
+  height: 20vh;
+  /* border: 1px solid black; */
+}
+.navbar ul {
+  margin: 50px;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+ul li {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+ul li a {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+ul li a:hover {
+  border-radius: 5px;
+  /* padding: 10px; */
+  background-color: gray;
+  color: honeydew;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container .con-child {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+}
+
+/* ______________________________________________________________ */
+.sec-1 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+.container-2 {
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+.box {
+  width: 33%;
+  height: 30vh;
+  /* border: 1px solid blue; */
+}
+.box img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+#box-1 {
+  background-color: rgb(77, 75, 75);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+#box-1 h4 {
+  color: whitesmoke;
+  font-size: 2rem;
+  width: 80%;
+  height: 80%;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+#box-2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+#box-2 p {
+  margin: 70px;
+}
+/* _____________________________________________________ */
+
+.sec-2 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+#container-3 {
+  width: 100%;
+  height: 73vh;
+  background: url(IMG/sec-img.jpg);
+  background-position: top;
+  background-size: cover;
+  /* border: 1px solid red; */
+  display: flex;
+  position: relative;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+#child-con {
+  width: 30%;
+  height: 50vh;
+  position: absolute;
+  top: 2rem;
+  left: 10rem;
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+#child-con h1 {
+  color: whitesmoke;
+  font-size: 3rem;
+  font-weight: 800;
+}
+#child-con h4 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: whitesmoke;
+  letter-spacing: 8px;
+}
+/* _______________________________________________ */
+.sec-3 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+#container-4 {
+  width: 90%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.box001 {
+  width: 30%;
+  height: 70vh;
+  background-color: rgba(207, 204, 204, 0.562);
+  /* border: 1px solid blue; */
+}
+.box002 {
+  width: 70%;
+  height: 70vh;
+  background: url(IMG/sec-2-img.jpg);
+  background-position: center;
+  background-size: cover;
+  /* border: 1px solid blue; */
+}
+.box001 h5 {
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 10px;
+}
+.box001 h2 {
+  text-align: center;
+  font-size: 4rem;
+}
+.box001 h2 span {
+  color: rgba(128, 123, 123, 0.863);
+}
+.box001 i {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 500;
+}
+/* ________________________________________________ */
+.sec-4 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+.container-5 {
+  width: 99%;
+  height: 79vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+#con-01 {
+  width: 40%;
+  height: 79vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  background-color: rgba(207, 204, 204, 0.562);
+  /* border: 1px solid rgb(4, 0, 255); */
+}
+#con-001 {
+  margin: 30% 20%;
+  width: 100%;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+#con-002 {
+  color: rgb(128, 96, 96);
+  text-align: center;
+  font-size: 3rem;
+}
+#con-02 {
+  width: 35%;
+  height: 79vh;
+  background: url(IMG/dog-1.jpg);
+  background-position: center;
+  background-size: cover;
+  /* border: 1px solid blue; */
+}
+#con-03 {
+  width: 25%;
+  height: 79vh;
+  flex-wrap: wrap;
+  background-color: rgba(207, 204, 204, 0.562);
+  /* border: 1px solid blue; */
+}
+.pra-1 p {
+  margin: 10px;
+  color: rgb(128, 96, 96);
+  font-size: 25px;
+}
+/* ____________________________________________________ */
+.sec-5 {
+  width: 100%;
+  height: 80vh;
+  background: url(IMG/sec-5-img.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+.container-6 {
+  color: black;
+  width: 90%;
+  height: 77vh;
+  /* justify-content: center;
+    display: flex;
+    align-items: center; */
+  position: relative;
+  /* border: 1px solid red; */
+}
+.con-child-1 {
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  height: 35vh;
+  /* border: 1px solid blue; */
+}
+#basic-dog {
+  text-align: center;
+  font-size: 3rem;
+}
+#Training {
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 1rem;
+}
+#pra {
+  font-weight: 600;
+  padding: 5px;
+}
+.btn-0 {
+  margin-top: 30px;
+  height: 3.5rem;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+.btn-0 button {
+  background-color: transparent;
+  padding: 15px 40px;
+}
+.btn-0 button:hover {
+  background-color: black;
+  color: white;
+}
+/* _________________________________________________________ */
+.sec-6 {
+  margin-top: 10px;
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.container-7 {
+  width: 90%;
+  height: 35vh;
+  color: whitesmoke;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+#like {
+  margin-top: 6%;
+  /* border: 1px solid blue; */
+}
+.like-icon {
+  height: 3rem;
+  /* border: 1px solid whitesmoke; */
+}
+.like-icon i {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.like-icon i:hover {
+  border-radius: 5px;
+  background-color: brown;
+}
